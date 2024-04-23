@@ -15,6 +15,7 @@
 
 # Generated files
 .idea/**/contentModel.xml
+**/connection/
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
@@ -24,6 +25,7 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+
 
 # Gradle
 .idea/**/gradle.xml
