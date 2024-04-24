@@ -53,7 +53,9 @@ public class CarDAOClass implements CarDAO{
     ResultSet rs = ps.executeQuery();
 
     while(rs.next()) {
-     // cars.add every car with the same parameters as the one in the result set :)
+      for (int i = 0; i < rs.getFetchSize(); i++) {
+        // this is when I would add each car at i but I'm not sure how to do it yet
+      }
     }
     return cars;
   }
